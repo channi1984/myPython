@@ -166,9 +166,7 @@
 #             elif(num[i] == str(rn[j]) and i != j):
 #                 b_cnt = +1
 #     print("결과 : [", s_cnt, "] Strike[", b_cnt, "] Ball")
-#     t_cnt += 1
+#     t_cnt += 1ㅁ
 
 # print("--------------------")
 # print(t_cnt, "번 만에 정답을 맞추셨습니다.")
-
-
