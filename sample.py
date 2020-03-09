@@ -96,8 +96,79 @@
 # d = a - b
 # print(d)
 
-def sum(a,b):
-	s = a+b
-	return s
-total = sum(4,6)
-print(total)
+# def sum(a,b):
+# 	s = a+b
+# 	return s
+# total = sum(4,6)
+# print(total)
+
+# def clac(i,j,factor=1):
+# 	return i*j*factor
+
+# result = clac(10,20)
+
+# print(result)
+
+# def total(*numbers):
+# 	tot = 0
+# 	for n in numbers:
+# 		tot+=n
+# 	return tot
+
+# t = total(1,2)
+# print(t)
+# t = total(1,4,2,6)
+# print(t)
+
+# class Rectangle:
+# 	count = 0
+
+# 	def __init__(self, width, height) :
+# 		self.width = width
+# 		self.height = height
+# 		Rectangle.count += 1
+
+# 	def calcArea(self):
+# 		area = self.width * self.height
+# 		return area
+
+# import random
+
+# rn = ["0", "0", "0"]
+# rn[0] = str(random.randrange(1, 9, 1))
+# rn[1] = rn[0]
+# rn[2] = rn[0]
+
+# while (rn[0] == rn[1]):
+#     rn[1] = str(random.randrange(1, 9, 1))
+# while (rn[0] == rn[2] or rn[1] == rn[2]):
+#     rn[2] = str(random.randrange(1, 9, 1))
+
+# # print(rn)
+
+# t_cnt = 0
+# s_cnt = 0
+# b_cnt = 0
+
+# print("숫자야구게임을 시작합니다!!!")
+# print("---------------------")
+
+# while (s_cnt < 3):
+#     num = str(input("숫자 3자리를 입력하세요:"))
+
+#     s_snt = 0
+#     b_scnt = 0
+
+#     for i in range(0, 3):
+#         for j in range(0, 3):
+#             if(num[i] == str(rn[j]) and i == j):
+#                 s_cnt += 1
+#             elif(num[i] == str(rn[j]) and i != j):
+#                 b_cnt = +1
+#     print("결과 : [", s_cnt, "] Strike[", b_cnt, "] Ball")
+#     t_cnt += 1
+
+# print("--------------------")
+# print(t_cnt, "번 만에 정답을 맞추셨습니다.")
+
+
