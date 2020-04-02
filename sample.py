@@ -170,3 +170,66 @@
 
 # print("--------------------")
 # print(t_cnt, "번 만에 정답을 맞추셨습니다.")
+
+# var_string = 'Life is Short! You Need Python!!'
+
+# print(var_string[0])
+# print(var_string[24])
+
+# print(var_string[-1])
+
+# print(var_string[-32])
+# print(var_string[-8])
+
+# var_str = 'PYTHON'
+
+# print(var_str[0:3])
+# print(var_str[2:5])
+# print(var_str[2:])
+# print(var_str[:3])
+
+# print(var_str[-6:-3])
+# print(var_str[-4:-1])
+# print(var_str[-4:])
+# print(var_str[:-3])
+
+# var_str = 'Life is short! You need Pyton!!'
+
+# print(var_str.upper())
+# print(var_str.lower())
+# print(var_str.title())
+# print(var_str.swapcase())
+
+# print(var_str.count('e'))
+# print(var_str.find('Python'))
+
+# print(var_str.endswith('?'))
+# print(var_str.endswith('!'))
+# print(var_str.startswith('l'))
+# print(var_str.startswith('L'))
+# print(var_str.lower().startwith('l'))
+
+# var_list1 = var_str.split()
+# print(var_list1)
+# var_list2 = var_str.split('! ')
+# print(var_list2)
+
+# value = 2
+
+# if(value == 1):
+#     print("value One")
+
+# if(value == 2):
+#     print("value Two")
+
+# value = 2
+
+# if(value == 1):
+#     print("value One")
+# else:
+#     print("value Noe One ")
+
+# if(value == 2):
+#     print("value Two")
+# else:
+#     print("value Not Two")
